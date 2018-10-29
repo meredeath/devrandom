@@ -31,7 +31,7 @@ int main(){
     write(written, rands, sizeof(int)*10);
     
     printf("printing results of second array (what we wrote)\n");
-    int check = open("written", O_RDONLY);
+    int check = open("stuff", O_RDONLY);
 
     //creating second array of unsigned ints to read into from written file
     unsigned int second[10];
